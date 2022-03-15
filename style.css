@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'PT Serif', serif; */
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* ---- */
+
+.section_uber_uns {
+  background-color: #0f283c;
+  color: #fff;
+  text-align: center;
+  padding: 3em;
+}
+
+.logo {
+  margin-bottom: 5em;
+}
+
+.uber_uns_cards_wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.card i {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+}
+
+.card_title {
+  font-size: 1.7em;
+}
+
+.card_text {
+  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+  line-height: 1.5;
+  font-weight: 200;
+}
